@@ -1,12 +1,13 @@
 {
   "name": "@webo-agency/api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./nuxt.config.ts",
   "type": "module",
   "exports": "./nuxt.config.ts",
   "packageManager": "pnpm@8.5.1",
   "files": [
     "assets",
+    "server",
     "components",
     "composables",
     "layouts",
