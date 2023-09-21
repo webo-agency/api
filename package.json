@@ -1,0 +1,34 @@
+{
+  "name": "@webo-agency/api",
+  "version": "1.0.0",
+  "main": "./nuxt.config.ts",
+  "type": "module",
+  "exports": "./nuxt.config.ts",
+  "packageManager": "pnpm@8.5.1",
+  "files": [
+    "assets",
+    "components",
+    "composables",
+    "layouts",
+    "types",
+    "app.config.ts",
+    "app.vue",
+    "nuxt.config.ts",
+    "nuxt.schema.ts",
+    "tokens.config.ts"
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "npx nuxi generate"
+  },
+  "dependencies": {
+    "nuxt": "3.7.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.9.0"
+  }
+}
